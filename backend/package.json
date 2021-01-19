@@ -6,7 +6,11 @@
   "scripts": {
     "init": "sequelize-cli db:create && sequelize-cli db:migrate",
     "dev": "nodemon server.js"
+
   },
+  "engines": {
+      "node": "12.19.0"
+    },
   "author": "benjamin nedelec",
   "license": "ISC",
   "dependencies": {

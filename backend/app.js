@@ -13,6 +13,8 @@ const likesRoutes = require('./routes/likes').router;
 //appel de la méthode Express
 const app = express();
 
+app.use(express.static("public"));
+
 //Insertion CORS
 app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');

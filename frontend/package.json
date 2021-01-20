@@ -4,12 +4,13 @@
   "description": "",
   "main": "login.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "start": "node index.js",
+    "build": "webpack",
+    "engines": {
+        "node": "12.19.0"
+      }
   },
-  "engines": {
-      "node": "12.19.0"
-    },
+
   "author": "benjamin nedelec",
   "license": "ISC",
   "dependencies": {

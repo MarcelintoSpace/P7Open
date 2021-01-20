@@ -5,12 +5,13 @@
   "main": "server.js",
   "scripts": {
     "init": "sequelize-cli db:create && sequelize-cli db:migrate",
-    "dev": "nodemon server.js"
-
+    "start": "node index.js",
+    "build": "webpack",
+    "engines": {
+        "node": "12.19.0"
+      }
   },
-  "engines": {
-      "node": "12.19.0"
-    },
+
   "author": "benjamin nedelec",
   "license": "ISC",
   "dependencies": {

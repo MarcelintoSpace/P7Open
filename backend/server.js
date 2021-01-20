@@ -17,7 +17,7 @@ const normalizePort = val => {
 };
 
 //Définition du port 3001
-const port = normalizePort(process.env.PORT || '8080');
+const port = normalizePort(process.env.PORT || '8000');
 //Définition du port pour app.js
 app.set('port', port);
 

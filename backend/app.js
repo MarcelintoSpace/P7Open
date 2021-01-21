@@ -13,7 +13,7 @@ const likesRoutes = require('./routes/likes').router;
 //appel de la méthode Express
 const app = express();
 
-app.use(express.static("public"));
+app.use(express.static(__dirname));
 
 //Insertion CORS
 app.use((req, res, next) => {
@@ -29,6 +29,10 @@ app.use((req, res, next) => {
 
 //gestion des routes principales
   app.use('/images', express.static(path.join(__dirname, 'images')));
+
+  app.use('/', function(req, res) {
+    res.render("index");
+  });
 
   app.use('/', userRoutes);
   app.use('/profil/', userRoutes);

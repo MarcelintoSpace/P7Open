@@ -12,7 +12,7 @@
       }
   },
 
-  "author": "benjamin nedelec",
+  "author": "Benjamin Nedelec",
   "license": "ISC",
   "dependencies": {
     "async": "^3.2.0",

@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "build": "set NODE_ENV=production"
+    "build": "set NODE_ENV='production'"
   },
   "author": "Benjamin Nedelec",
   "license": "ISC",

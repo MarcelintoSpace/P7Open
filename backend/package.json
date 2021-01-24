@@ -10,7 +10,7 @@
   "scripts": {
     "init": "sequelize-cli db:create && sequelize-cli db:migrate",
     "start": "node server.js",
-    "build": "set NODE_ENV=production"
+    "build": "set NODE_ENV='production'"
   },
   "author": "Benjamin Nedelec",
   "license": "ISC",
